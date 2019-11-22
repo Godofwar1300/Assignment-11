@@ -2,7 +2,15 @@ using UnityEngine;
 
 namespace UnityStandardAssets.Characters.ThirdPerson
 {
-	[RequireComponent(typeof(Rigidbody))]
+
+    /*
+		 * (Christopher Green)
+		 * (ThirdPersonCharacter)
+		 * (Assignment 11)
+		 * (This script is the Unity Standard Assets version of a thirdperson controller script and it handles things such as movement)
+*/
+
+    [RequireComponent(typeof(Rigidbody))]
 	[RequireComponent(typeof(CapsuleCollider))]
 	[RequireComponent(typeof(Animator))]
 	public class ThirdPersonCharacter : MonoBehaviour

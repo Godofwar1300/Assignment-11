@@ -6,6 +6,13 @@ using UnityEngine.AI;
 public class EnemyAI : MonoBehaviour
 {
 
+/*
+		 * (Christopher Green)
+		 * (EnemyAI)
+		 * (Assignment 11)
+		 * (This script handles the movement of the AI to the player)
+*/
+
     private NavMeshAgent thisAgent = null;
     public Transform player = null;
 

@@ -3,6 +3,14 @@ using UnityEngine.AI;
 
 public class LevelGenerator : MonoBehaviour {
 
+
+/*
+		 * (Christopher Green)
+		 * (LevelGenerator)
+		 * (Assignment 11)
+		 * (This script handles the generation of a random level)
+*/
+
     public NavMeshSurface surface;
 
 	public int width = 10;

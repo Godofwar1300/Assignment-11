@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class ObstacleAnimation : MonoBehaviour {
 
-	public float speed = .2f;
+/*
+		 * (Christopher Green)
+		 * (ObstacleAnimation)
+		 * (Assignment 11)
+		 * (This script handles movement and animation of the obstacles)
+*/
+
+    public float speed = .2f;
 	public float strength = 9f;
 
 	private float randomOffset;

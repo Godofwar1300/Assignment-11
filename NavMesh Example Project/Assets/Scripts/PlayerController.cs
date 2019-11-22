@@ -5,6 +5,13 @@ using UnityStandardAssets.Characters.ThirdPerson;
 public class PlayerController : MonoBehaviour
 {
 
+    /*
+		 * (Christopher Green)
+		 * (PlayerController)
+		 * (Assignment 11)
+		 * (This script handles the movement of the player)
+*/
+
     public Camera cam;
 
     public NavMeshAgent agent;

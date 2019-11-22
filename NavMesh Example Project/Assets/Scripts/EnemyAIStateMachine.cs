@@ -3,6 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+/*
+		 * (Christopher Green)
+		 * (EnemyAIStateMachine)
+		 * (Assignment 11)
+		 * (This script handles the different states for the enemy AI)
+*/
+
+
 public class EnemyAIStateMachine : MonoBehaviour
 {
     private NavMeshAgent ThisAgent = null;
